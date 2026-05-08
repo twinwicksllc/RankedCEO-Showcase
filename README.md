@@ -14,6 +14,27 @@
 
 ---
 
+## ⚡ TL;DR
+
+> A **production SaaS platform** — not a tutorial project. Built, deployed, and live.
+
+| | |
+|---|---|
+| 🌐 **Live at** | [crm.rankedceo.com](https://crm.rankedceo.com) |
+| 🧱 **Stack** | Next.js 14 · TypeScript · Supabase PostgreSQL · Vercel |
+| 📐 **Scale** | 67 routes · 30+ DB tables · 60+ RLS policies · ~21,000 lines of code |
+| 🏭 **Products** | CRM + 4 industry verticals (Dental, HVAC, Plumbing, Electrical) + WaaS layer |
+| 🔐 **Security** | 100% Row Level Security · reCAPTCHA v3 Enterprise · multi-tenant data isolation |
+| 🤖 **AI-Ready** | Gemini (lead scoring) · Perplexity (research) hooks integrated |
+| 💳 **Payments** | Stripe billing integrated |
+| 📧 **Email** | SendGrid campaigns · Smart BCC capture · full email threading |
+| 📊 **Analytics** | Revenue · pipeline · activity dashboards with Recharts |
+| 🏗️ **Architecture** | Service-layer pattern · Zod validation · React Server Components · Edge Middleware |
+
+**In short:** A full-featured, multi-product SaaS monorepo — CRM, industry lead funnels, white-label website hosting, and analytics — all deployed from a single Next.js 14 codebase.
+
+---
+
 ## 📖 What Is It?
 
 RankedCEO CRM is a fully custom, production-deployed Customer Relationship Management platform built on **Next.js 14**, **Supabase PostgreSQL**, and **TypeScript**. It goes far beyond a standard CRM — the same monorepo also powers a **multi-subdomain industry vertical system** (Dental, HVAC, Plumbing, Electrical) where each vertical gets its own branded subdomain, lead intake form, and operator dashboard, plus a **Website-as-a-Service (WaaS)** layer that serves white-labeled websites to external clients on custom domains — all routed through a single unified middleware.
